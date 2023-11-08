@@ -55,20 +55,15 @@ The Flutter Weather App is a visually captivating and fully functional User Inte
 
 ## Getting Started
 1. Get your API key by creating an account at [WeatherAPI](https://www.weatherapi.com).
-2. Clone the repository
-
-   ```sh
-   git clone https://github.com/AbdQader/flutter_weather_app.git
-   ```
-3. Install all the packages by running
+2. Install all the packages by running
    ```sh
    flutter pub get
    ```
-4. Navigate to **lib/utils/constants.dart** and paste your API key to the mApiKey variable
+3. Navigate to **lib/utils/constants.dart** and paste your API key to the mApiKey variable
    ```dart
    static const mApiKey = 'Your API Key';
    ```
-5. Run the App
+4. Run the App
    ```dart
    flutter run
    ```
